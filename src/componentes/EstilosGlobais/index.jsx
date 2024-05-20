@@ -1,4 +1,4 @@
-import { Global, css } from "@emotion/react";
+import { Global } from "@emotion/react";
 
 const estilos = (tema) => {
   return {
