@@ -1,5 +1,5 @@
 import styled from "@emotion/styled/macro";
-import Logo from "../ProvedorTema/assets/Logo cinza.png";
+import Logo from "../ProvedorTema/assets/Logo branco.svg";
 
 const HeaderEstilizado = styled.header`
   display: flex;
@@ -7,6 +7,7 @@ const HeaderEstilizado = styled.header`
   align-items: center;
   background: ${(props) => props.theme.cores.primarias.a};
   padding: ${(props) => props.theme.espacamentos.m};
+  color: ${(props) => props.theme.cores.branco};
 `;
 
 export const Cabecalho = () => {
